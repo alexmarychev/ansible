@@ -1,0 +1,9 @@
+- name: NGINX | Install NGINX package from EPEL Repo
+  yum:
+    name: nginx
+    state: latest
+  notify:
+    - restart nginx
+  tags:
+    - nginx-package
+    - packages
