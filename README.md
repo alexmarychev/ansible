@@ -13,9 +13,9 @@
 4. Директория ```roles/nginx/handlers``` содержит файл main.yml с handlers.
 5. Директория ```roles/nginx/tasks``` содержит файлы:
 
-- main.yml включает все необходимые tasks
-- epel.yml установка репозитория epel
-- nginx.yml установка nginx
-- nginx_conf.yml конфигурация nginx
+- ```main.yml``` включает все необходимые tasks
+- ```epel.yml``` установка репозитория epel
+- ```nginx.yml``` установка nginx
+- ```nginx_conf.yml``` конфигурация nginx
 
 6. Директория ```roles/nginx/templates``` содержит шаблон jinja2 для конфигурации nginx.
