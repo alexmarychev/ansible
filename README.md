@@ -10,7 +10,7 @@
 2. Файл ```site.yml``` для запуска роли nginx.
 2. Директория ```roles``` содержит роль для деплоя nginx.
 3. Директория ```roles/nginx/defaults``` содержит файл main.yml с переменными по умолчанию.
-4. Директория ```roles/nginx/handlers`` содержит файл main.yml с handlers.
+4. Директория ```roles/nginx/handlers``` содержит файл main.yml с handlers.
 5. Директория ```roles/nginx/tasks``` содержит файлы:
 
 - main.yml включает все необходимые tasks
